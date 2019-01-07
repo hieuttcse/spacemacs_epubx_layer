@@ -1,0 +1,35 @@
+#+TITLE: epubx layer
+
+# The maximum height of the logo should be 200 pixels.
+# [[img/epubx.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+- [[#todos][TODOs:]]
+
+* Description
+This layer works as a wrapper of =nov.el= with new keybindings.    
+
+* Install
+To use epubx layer.
+
+1. =git clone https://github.com/hieuttcse/spacemacs_epubx_layer ~/.emacs.d/private/epubx=
+2. add it to your =~/.spacemacs=. You will need to add =epubx= to the existing =dotspacemacs-configuration-layers= list in this file.
+
+* Key bindings
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~, t~       | Goto table of content |
+| ~, m~       | Show metadata         |
+| ~, n~       | Go to next chapter    |
+| ~, p~       | Go to previous chapter|
+| ~, V~       | View epub source      |
+| ~, v~       | View chapter source   |
+
+
+* TODOs:
+ + Bookmarks
